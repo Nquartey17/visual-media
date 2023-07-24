@@ -1,0 +1,119 @@
+* { box-sizing: border-box; }
+body	{background: linear-gradient(#FF0000, #FFFF00);}
+		
+header	{background-image:url(images/film.jpg);
+		background-position:left;
+		background-repeat:no-repeat;
+		background-size: 100%;
+		text-indent:1em;
+		height:75px;
+		text-align:center;
+		padding-top:10px;
+		}
+		
+nav		{font-weight: bold;
+		text-align:center;
+		font-size: 100%;
+		margin-top: 0;
+		background-color:#FFFFF0;}
+		
+nav ul {list-style-type: none;
+		margin: 0;}
+	   
+nav li	{border-bottom:1px solid #00008B;}
+
+nav a	{text-decoration:none;}
+nav a:link	{color:#696969;}
+nav a:visited	{color:#0000CD;}
+nav a:hover		{color:#FFD700;}
+
+h2 { color: #1976D2; 
+     font-family: Arial, sans-serif, Verdana;
+     text-shadow: 1px 1px 1px #2F4F4F;	 }
+
+
+main { padding: 1px 20px 20px 20px;
+      display: block;
+	  background-color: #FFFFE0;
+	  padding-left: 30px;
+	  margin:auto;
+
+}
+
+ol		{list-style-type:none;
+		font-weight:bold;}
+		
+ol li	{font-size:150%;}
+
+h2		{color:#000000;
+		font-size:200%;}
+
+footer { font-size: 100%;
+       font-style: italic;
+	   text-align: center;
+	   background-color: #FFFFE0;
+	   font-family: Georgia, "Times New Roman", serif; 
+	   padding: 2em;}
+
+#divider	{margin-left:auto;
+			margin-right:auto;
+			width:100%;
+			background-color:#FFFFFF;
+			box-shadow:5px 5px 5px #333333;
+			}
+			
+#indeximage {height: 400px;
+            background-image: url(images/laptop.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%; }
+#softwareimage	{height: 400px;
+            background-image: url(images/editingSoftwares.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%; }
+#workspaceimage	{height: 400px;
+            background-image: url(images/workspace.png);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;}
+#audioimage	{height: 400px;
+            background-image: url(images/audioimage.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;}
+#videoimage	{height: 400px;
+            background-image: url(images/videoimage.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;}
+#basicsimage	{height: 400px;
+            background-image: url(images/basicsimage.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;}
+.show { color: #00FF7F;
+          font-weight: bold;
+		font-size:150%;
+		font-family:Georgia, serif, Didot;}
+		
+
+		
+@media (min-width: 640px) {
+	nav li {display: inline-block;
+			width:7em;
+			padding: 0.3em;
+			}
+	nav ul 	{display:flex;
+		flex-wrap:nowrap;
+		flex-direction:row;
+		justify-content:space-around;
+		}
+	
+}
+
+@media (min-width:1024px) 
+{
+	
+nav		{text-align:center;}
+		
+
+}
+
+
+
+
